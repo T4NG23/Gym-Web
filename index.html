@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gym Leaderboard - Track time spent at the gym and see where you rank!">
+    <title>Gym Leaderboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        .leaderboard {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+
+        .user-profile {
+            background-color: white;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Gym Leaderboard</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Leaderboard</a>
+    <a href="#">My Profile</a>
+    <a href="#">Statistics</a>
+</nav>
+
+<section>
+    <div class="leaderboard">
+        <h2>Top Performers</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>User</th>
+                    <th>Total Time (hrs)</th>
+                    <th>Last Session</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td>50</td>
+                    <td>2 hrs</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jane Smith</td>
+                    <td>45</td>
+                    <td>1.5 hrs</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Mike Johnson</td>
+                    <td>40</td>
+                    <td>2.5 hrs</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="user-profile">
+        <h2>Your Profile</h2>
+        <p><strong>Username:</strong> User123</p>
+        <p><strong>Total Time Spent:</strong> 30 hrs</p>
+        <p><strong>Last Session:</strong> 1 hr 15 min</p>
+        <p><strong>Rank:</strong> 5</p>
+    </div>
+</section>
+
+<footer>
